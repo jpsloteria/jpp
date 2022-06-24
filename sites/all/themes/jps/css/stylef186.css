@@ -1,0 +1,2898 @@
+body{
+background: url('../images/background.png');
+
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.logo.navbar-btn img{
+/* height: 150px; */
+height: 100px;
+width: auto;
+}
+
+.with-background {
+background: #;
+margin-bottom: 15px;
+}
+
+.inner-content {
+padding: 10px;
+}
+
+.home #navbar{
+  height: 122px;
+  margin: 0;
+  background: transparent;
+  border: none;
+  border-radius: 0;
+  z-index: 99;
+  width: 100%;
+  position: absolute;
+}
+
+#navbar{
+height: 122px;
+margin: 0;
+background: white;
+border: none;
+border-radius: 0;
+z-index: 99;
+}
+
+.navbar .logo{
+position: relative;
+z-index: 1000;
+border-radius: 50%;
+background-color: white;
+
+}
+
+.home .navbar .logo{
+position: relative;
+z-index: 1000;
+border-radius: 50%;
+background-color: transparent;
+
+}
+
+.navbar-nav li.expanded .dropdown-menu a {
+background: transparent !important;
+border-bottom: none !important;
+padding-left: 10px;
+padding: 0 10px;
+}
+
+section.col-sm-12{
+padding: 0 !important;
+}
+
+.container {
+max-width: 1200px;
+}
+
+.front .panel-col-bottom .inside{
+padding: 0;
+}
+
+footer .block{
+padding: 0;
+}
+
+.main-container{
+padding-top: 70px;
+
+}
+
+.navbar-toggle{
+border: none !important;
+z-index: 2000;
+}
+
+.menu.navbar-nav
+{
+margin-top: 72px;
+float: right;
+max-width: 80%;
+position: relative;
+z-index: 9999;
+text-align: left;
+}
+
+.navbar-nav li{
+margin-right: 20px;
+}
+
+
+.menu .nav>li {
+  /* width: 100%; */
+}
+
+.navbar-nav li a {
+background: transparent !important;
+font-size: 100%;
+text-transform: uppercase;
+padding: 14px 0 11px 0;
+color: black !important;
+}
+
+
+.navbar-collapse{
+padding: 0;
+z-index: 2000;
+
+}
+
+.navbar-nav > li.active-trail a, .navbar-default .navbar-nav > li > a:hover, .navbar-nav li.expanded.open > a  {
+background: transparent !important;
+border-bottom: solid 5px #C8283B !important;
+}
+
+.custom-menu-btn {
+margin-top: 5px;
+background-color: transparent;
+border: none;
+}
+
+.icon-bar {
+background-color: black !important;
+}
+
+.custom-menu-btn .icon-bar {
+display: block;
+width: 22px;
+height: 2px;
+border-radius: 1px;
+margin-bottom: 3px;
+}
+
+.front .pane-block.pane-views-noticias-block{
+padding-right: 0
+}
+
+.front .pane-custom.pane-1{
+padding-left: 0;
+}
+
+.loteria{
+background: #9d2023;
+}
+
+.g-recaptcha {
+background: #9d2023;
+}
+
+.chances{
+background: #004E80;
+}
+
+.tiempos{
+background: #279FD7;
+}
+
+.instantanea{
+background: #780007;
+}
+
+.nuevosTiempos{
+background: #F0AE08;
+}
+
+.tresMonazos{
+background: #F0AE08;
+}
+
+.lotto{
+background: #23528E;
+}
+
+.tresMonazos{
+background: #74459a;
+}
+
+.tipo-sorteo ul{
+margin: 0;
+padding: 0;
+list-style: none;
+}
+
+.tipo-sorteo ul li {
+float: left;
+height: 40px;
+vertical-align: top;
+margin-right: 2.90px;
+}
+
+.tipo-sorteo ul li:last-child{
+margin-right: 0 !important;
+}
+
+.tipo-sorteo ul li span{
+display: block;
+text-align: center;
+height: 100%;
+padding-top: 5px;
+cursor: pointer;
+}
+
+.tipo-sorteo ul li span.tiempos{
+padding-top: 10px;
+}
+
+.tipo-sorteo ul li span img{
+width: auto;
+max-height: 40px;
+max-width: 100%;
+}
+
+.sorteo_logo {
+text-align: center;
+height: 170px;
+background: #fff;
+}
+
+.sorteo_logo img{
+max-height: 80%;
+margin-top: 25px;
+width: auto;
+}
+
+.sorteo_detail {
+padding: 10px;
+color: #fff;
+}
+
+.sorteo_detail h2 {
+margin: 0;
+float: left;
+}
+
+.sorteo_fecha {
+margin-top: 8px;
+float: right;
+font-style: italic;
+}
+
+.sorteo_fecha_fin{
+font-style: italic;
+margin-right: 10px;
+}
+
+.sorteo_detail ul {
+clear: both;
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+.numero {
+background: url('../images/bola-icon.png');
+font-size: 32px;
+color: #000;
+display: inline-block;
+padding: 14px 14px 14px 14px;
+background-repeat: no-repeat;
+text-align: center;
+width: 75px;
+margin: 10px 20px 0;
+}
+
+.num_bola_roja{
+  background: url('../images/bola-roja.png') !important;
+  background-repeat: no-repeat;
+  background-size: 40px !important;
+  color: white !important;
+}
+
+.num_bola_roja_pagina {
+    background: url(../images/bola-roja.png) !important;
+    background-repeat: no-repeat;
+    background-size: 60px !important;
+    color: white !important;
+    height: 40px;
+    margin-bottom: 6px !important;
+}
+
+.num_bola_gris{
+  background: url('../images/bola-gris.png') !important;
+  background-repeat: no-repeat;
+  background-size: 40px !important;
+  color: white !important;
+}
+
+.num_bola_gris_pagina {
+    background: url(../images/bola-gris.png) !important;
+    background-repeat: no-repeat;
+    background-size: 60px !important;
+    color: white !important;
+    height: 40px;
+    margin-bottom: 6px !important;
+}
+
+.serie {
+font-size: 30px;
+display: inline-block;
+}
+
+.premio {
+float: right;
+display: block;
+clear: right;
+margin-top: 30px;
+font-size: 20px;
+}
+
+.premio_label {
+margin-top: -25px;
+width: 100%;
+text-align: right;
+display: block;
+clear: both;
+}
+
+.sorteo_detail a, .sorteo_detail a:hover {
+text-transform: uppercase;
+color: #fff;
+text-decoration: none;
+padding-left: 20px;
+background: url('../images/arrow-left.png');
+background-repeat: no-repeat;
+display: block;
+line-height: 28px;
+margin-top: 11px;
+margin-left: 75%;
+}
+
+.views-field-field-image img{
+width: 100%;
+height: auto;
+}
+
+.front .view-noticias.view-display-id-block .view-content {
+background: #fff;
+margin-bottom: 20px;
+min-height: 590px;
+}
+
+.front .view-noticias.view-display-id-block .views-field-view-node a{
+padding: 20px 0;
+}
+
+.front .view-content .views-field-title {
+font-size: 16px;
+line-height: 16px;
+margin: 0;
+color: #000;
+text-decoration: none;
+padding: 5px 5px 0 5px;
+border-left: solid 5px #C8283B;
+}
+
+.front .view-content .views-field-title a {
+font-size: 16px;
+margin: 0;
+color: #000;
+text-decoration: none;
+}
+
+.front .view-content .views-field-body {
+padding: 10px 10px 0 10px;
+font-size: 12px;
+text-align: justify;
+}
+
+.front .view-content .views-field-created{
+font-style: italic;
+font-size: 11px;
+color: #666666;
+padding: 0 5px 5px;
+border-left: solid 5px #C8283B;
+}
+
+.front .views-field-view-node a, .front .views-field-view-node a:hover {
+font-size: 11px;
+color: #C8283B;
+text-decoration: none;
+text-align: right;
+display: block;
+margin-right: 10px;
+font-weight: bold;
+}
+
+.view-noticias.view-display-id-block_1{
+overflow: hidden;
+padding-bottom: 20px;
+margin-bottom: 20px;
+}
+
+.view-noticias.view-display-id-block_1, .view-noticias.view-display-id-block_1 .view-content,
+.view-calendario, .view-calendario .view-content{
+background: #E6E6E6 !important;
+}
+
+.view-noticias.view-display-id-block_1{
+height: 460px;
+overflow: hidden;
+width: 100%;
+}
+
+.view-calendario {
+width: 100%;
+min-height: 240px;
+}
+
+.view-noticias.view-display-id-block_1 .view-content .views-row{
+background: #;
+padding: 0;
+height: 400px;
+border-right: solid 10px #e6e6e6;
+max-width: 220px;
+}
+
+.view-noticias.view-display-id-block_1 .view-content .views-row-last{
+border-right: 0;
+}
+
+.view-header h2{
+padding: 5px 5px 0 5px;
+border-left: solid 5px #C8283B;
+margin: 0;
+font-size: 24px;
+padding-bottom: 10px;
+}
+
+.front .view-noticias.view-display-id-block_1 .views-field-view-node a, .front .view-noticias.view-display-id-block_1 .views-field-view-node a:hover {
+position: absolute;
+bottom: 10px;
+right: 0px;
+}
+
+.front .view-noticias.view-display-id-block_1 .views-field-field-image img, .youtube-container--responsive {
+height: 156px;
+}
+
+.front .panel-col-bottom {
+background: white;
+padding: 30px 0;
+}
+
+.footer{
+background: black;
+margin-top: 0;
+min-height: 120px;
+padding: 20px 0 0 0;
+}
+
+.footer ul {
+float: left !important;
+margin: 0;
+padding: 0;
+}
+
+
+.footer ul li{
+display: inline-block;
+}
+
+.footer ul li a{
+text-decoration: none;
+color: #fff;
+padding: 3px;
+text-align: center;
+font-size: 12px;
+background-color: transparent !important;
+
+}
+
+.footer p {
+  color: #fff;
+}
+
+/* .footer ul li.last a, .footer ul li.last a {
+border-right: none;
+} */
+
+#block-block-2{
+position: inherit;
+padding: 10px 0;
+}
+
+#block-block-2 a{
+margin-right: 10px;
+}
+
+#block-block-1, #block-block-1 a, #block-block-1 a:hover {
+margin-top: 5px;
+color: #808080;
+text-align: center;
+font-size: 12px;
+text-decoration: none;
+text-align: left;
+}
+
+.panel-2col-stacked .panel-separator{
+display: none;
+}
+
+.front .view-calendario .views-field-field-fecha{
+float: left;
+width: 20%;
+display: block;
+padding: 0 10px 0 10px;
+border-right: solid 2px #C8283B;
+font-size: 100%;
+font-weight: bold;
+font-style: italic;
+line-height: 20px;
+text-align: right;
+}
+
+.front .view-calendario .views-row{
+clear: both;
+margin-bottom: 10px;
+height: 45px;
+}
+
+.front .view-calendario .views-field-body{
+float: right;
+width: 80%;
+padding: 0 10px 0 5px;
+max-height: 100px;
+overflow: hidden;
+margin-bottom: 5px;
+}
+
+.front .view-calendario .views-field-view-node {
+clear: right;
+display: block;
+float: right;
+}
+
+.front .view-calendario .view-footer{
+clear: both;
+padding-bottom: 10px;
+}
+
+.front .view-calendario .view-footer a {
+font-size: 11px;
+color: #C8283B;
+text-decoration: none;
+text-align: right;
+display: block;
+margin-right: 10px;
+font-weight: bold;
+}
+
+.view-noticias.view-display-id-block_1 .view-content{
+width: 5000px;
+}
+
+div.hoverscroll div.arrow {
+background-color: black !important;
+width: 50px !important;
+}
+
+/*quienes somos*/
+
+.page-quienes-somos .main-container img, .page-sala-prensa .main-container img {
+max-width: 100%;
+height: auto;
+}
+
+.not-front #block-system-main h2 {
+font-size: 20px;
+border-left: solid 4px #C8283B;
+padding-left: 5px;
+margin-top: 0;
+padding-top: 5px;
+padding-bottom: 5px;
+margin-bottom: 0;
+}
+
+.not-front #block-system-main {
+padding: 30px 0;
+}
+
+.page-quienes-somos #block-system-main .pane-content p{
+margin: 0 0 10px 10px;
+}
+
+.page-quienes-somos #block-system-main .pane-content{
+background-color: #;
+color: #000;
+padding-bottom: 10px;
+}
+
+.page-header{
+background: #C8283B;
+font-size: 36px;
+color: #fff;
+font-weight: bold;
+padding: 10px 15px;
+min-height: 60px;
+text-transform: uppercase;
+margin-bottom: 0;
+border: none;
+}
+
+
+.not-front .region-content{
+background: white;
+padding: 0;
+}
+
+.not-front .views-field-title a {
+background: #;
+text-decoration: none;
+border-left: solid 4px #C8283B;
+font-size: 20px;
+font-weight: bold;
+color: black;
+background-color: #;
+padding: 5px;
+display: block;
+line-height: 20px;
+margin-bottom: 15px;
+}
+
+.page-sala-prensa .pane-block-4 {
+background: #;
+padding: 0px 0px 10px;
+}
+
+.page-sala-prensa .pane-block-4  ul {
+padding-left: 25px;
+}
+
+.page-sala-prensa .pane-block-4  li {
+list-style: square;
+color: #C8283B;
+}
+
+.page-sala-prensa .pane-block-4  a {
+text-decoration: none;
+color: #000;
+}
+
+/*detalle noticia*/
+
+.node-type-article .field-name-field-image img{
+width: 100%;
+height: auto !important;
+}
+
+.node-type-article .pane-node-body {
+clear: both;
+margin-top: 10px;
+padding-bottom: 10px;
+}
+
+.node-type-article .panel-panel.right, .page-page-archive .view-footer {
+border-left: 20px solid white;
+}
+
+.node-type-article .panel-panel, .page-page-archive .view-footer{
+background: #E6E6E6;
+padding: 0;
+}
+
+.node-type-article  .pane-node-title h2{
+margin-bottom: 0;
+padding-top: 5px;
+padding-bottom: 5px;
+}
+
+.node-type-article .pane-node-author, .node-type-article .pane-node-created {
+padding-top: 50px;
+font-style: italic;
+color: #666666;
+}
+
+.node-type-article .pane-node-author .pane-title, .node-type-article .pane-node-author .pane-content{
+display: inline-block
+}
+
+.node-type-article .pane-custom .pane-content > div{
+float: right !important;
+margin-right: 2px !important;
+margin-top: 25px !important;
+}
+
+#twitter-widget-0 #widget{
+text-align: right;
+}
+
+.node-type-article .pane-custom  .pane-content{
+margin-top: -15px;
+}
+
+.row{
+margin: 0;
+}
+
+
+/*cementerios*/
+
+.page-cementerios .panel-pane{
+background: #E6E6E6;
+border-bottom: solid white 15px;
+}
+.page-cementerios .panel-pane .field-name-field-image img{
+width: 100%;
+height: auto;
+}
+
+.page-cementerios table tr, .page-cementerios table td, .page-cementerios table th{
+background: #E6E6E6 !important;
+border: none !important;
+}
+
+/*contrataciones*/
+
+.page-contrataciones .pane-block-5 {
+background: #;
+padding: 0 0 10px;
+}
+
+.page-contrataciones .pane-block-23{
+min-height: 145px;
+}
+
+.page-contrataciones .pane-block-23 .pane-content{
+padding: 0 10px;
+}
+
+.page-contrataciones .panel-panel .pane-title {
+padding-top: 5px;
+padding-bottom: 5px;
+}
+
+.page-contrataciones .pane-block-5 ul {
+padding-left: 25px;
+}
+
+.page-contrataciones .pane-block-5 li {
+list-style: square;
+color: #C8283B;
+}
+
+.page-contrataciones .pane-block-5 a {
+text-decoration: none;
+color: #000;
+}
+
+
+.not-front .field-name-body a, .not-front .field-name-body a:hover{
+
+text-decoration: none !important;
+font-weight: bold;
+}
+
+#block-block-6 {
+position: fixed;
+width: 50px;
+height: 100%;
+right: 0;
+background: #333333;
+top: 0;
+z-index: 100;
+}
+
+.quick_menu {
+padding: 0;
+top: 30%;
+list-style: none;
+position: absolute;
+}
+
+.quick_menu li {
+height: 35px;
+width: 50px;
+margin-bottom: 5px;
+cursor:pointer;
+}
+
+.quick_menu span {
+width: 100%;
+height: 100%;
+}
+
+.quick_menu span img {
+width: 60% !important;
+display: block;
+margin: auto;
+padding-top: 5px;
+cursor: pointer;
+}
+
+.quick_menu li.lotto span img{
+padding-top: 7px;
+}
+
+.quick_menu li.tiempos span img{
+padding-top: 12px;
+}
+
+.quick_menu li.nuevosTiempos span img{
+padding-top: 8px;
+}
+
+.quick_sorteo{
+display: none;
+position: absolute;
+z-index: 100;
+right: 50px;
+width: 285px;
+height: 100%;
+background: white !important;
+box-shadow: -3px 3px 21px 2px rgba(0,0,0,0.9);
+top: 0;
+overflow: hidden;
+padding-bottom: 10px;
+}
+
+.quick_sorteo .sorteo_logo{
+height: 170px !important;
+}
+
+.quick_sorteo .sorteo_logo img{
+width: auto;
+max-height: 80%;
+margin-top: 5%;
+}
+
+.quick_sorteo .sorteo_fecha{
+font-weight: bold;
+font-size: 24px;
+width: 100%;
+display: block;
+margin-bottom: 5px;
+float: none;
+font-style: normal;
+clear: both;
+}
+
+.quick_sorteo .premio{
+margin-top: 10px !important;
+}
+
+.quick_sorteo .numero{
+margin: 0 5px 10px !important;
+padding: 0 7px !important;
+width: 50px !important;
+background-size: 50px !important;
+height: 50px !important;
+}
+
+.quick_sorteo .serie{
+margin: 0 5px;
+width: 50px;
+text-align: center;
+}
+
+.quick_sorteo .sorteo_detail a{
+margin-top: 10px;
+}
+
+.quick_sorteo table.cuadricula td{
+font-size: 12px;
+}
+
+.quick_sorteo table{
+width: 100% !important;
+}
+
+.otros_resultado{
+color: #1a1a1a;
+margin: 5px 10px;
+padding: 0 5px;
+background: transparent !important;
+}
+
+.otros_resultado h3{
+font-size: 16px;
+margin: 10px 0;
+}
+
+.otros_resultado form label{
+font-size: 18px;
+margin-right: 5px;
+width: 20%;
+font-weight: normal;
+}
+
+.otros_resultado form input[type="text"]{
+background: #;
+font-size: 18px;
+width: 75%;
+float: right;
+}
+
+.otros_resultado form input[type="submit"]{
+font-size: 14px;
+color: white;
+clear: both;
+float: right;
+margin-top: 15px;
+display: block;
+box-shadow: none;
+text-shadow: none;
+border: none;
+}
+
+#navbar .menu.navbar-nav li.last a{
+cursor: pointer;
+}
+
+#block-menu-menu-popup-menu{
+position: absolute;
+display: none;
+width: 140px;
+background: white;
+z-index: 50;
+top: 122px;
+border: solid 1px #333333;
+}
+
+#block-menu-menu-popup-menu li a{
+padding: 1px 10px;
+color: #333333;
+font-size: 14px;
+}
+
+#block-menu-menu-popup-menu li a:hover{
+background: transparent;
+}
+
+#block-block-8 a{
+margin-top: 15px;
+position: absolute;
+right: 0;
+color: #C0232A;
+font-size: 11px;
+}
+
+#block-block-7{
+position: absolute;
+top: 0;
+z-index: 500;
+display: none;
+background: rgba(0,0,0,0.9);
+width: 100%;
+height: 100%;
+}
+
+#mostrarvideos{
+margin: auto;
+display: block;
+width: 600px;
+}
+
+/*loteria*/
+
+.page-node-28 .field-name-title{
+display: none;
+}
+
+.page-node-28 .page-header{
+background: #962023;
+}
+
+.page-node-28 .region-content{
+padding-top: 0;
+}
+
+.not-front .main-container .block-menu .nav>li{
+width: auto;
+padding: 0 15px;
+float: left;
+text-align: center;
+position: relative;
+z-index: 5;
+border-right: solid 1px #666666;
+border-left: solid 1px #666666;
+}
+
+.not-front .main-container .block-menu .nav>li>a{
+display: block;
+width: 100%;
+font-size: 15px;
+font-weight: bold;
+padding: 10px 0;
+margin: 0;
+color: #666666;
+border-bottom: solid 2px #666666;
+}
+
+.not-front .main-container .block-menu .nav>li>a:hover{
+background: none;
+}
+
+.not-front .main-container .block-menu .nav>li>a.active{
+border-top: solid 2px white;
+color: white;
+border-bottom: none;
+}
+
+#block-menu-menu-3-monazos .nav>li.active {
+    background: #C8283B;
+    border-right: none;
+}
+
+#block-menu-menu-lotto-submenu .nav>li{
+border-right: solid 1px #23528E;
+}
+
+#block-menu-menu-lotto-submenu .nav>li.active{
+background: #23528E;
+border-right: none;
+}
+
+#block-menu-menu-loteria-submenu .nav>li.active{
+background: #962023;
+border-right: none;
+}
+
+
+#block-menu-menu-chances-submenu .nav>li.active{
+background: #004E80;
+border-right: none;
+}
+
+#block-menu-menu-instantanea-submenu .nav>li.active{
+background: #780007;
+border-right: none;
+}
+
+#block-menu-menu-tiempos-submenu .nav>li.active{
+background: #279FD7;
+border-right: none;
+}
+
+#block-menu-menu-nuevos-tiempos-submenu .nav>li.active{
+background: #F0AE08;
+border-right: none;
+}
+
+#block-menu-menu-rueda-submenu .nav>li.active{
+background: #80A8BB;
+border-right: none;
+}
+
+.logo_container{
+position: relative;
+width: 100%;
+text-align: right;
+padding-right: 15px;
+z-index: 1;
+margin-bottom: 25px;
+}
+
+.page-node-28 #block-system-main h2{
+border-left: #962023 solid 4px;
+}
+
+.page-node-28 .logo_container{
+margin-top: -100px
+}
+
+.logo_container img{
+max-width: 140px;
+}
+
+.not-front .detail_ultimoSorteo{
+background: #f0f0f0;
+padding: 0;
+}
+
+.detail_ultimoSorteo .premio_label{
+margin-top: -20px;
+right: 10px;
+}
+
+.detail_ultimoSorteo .detail{
+/*padding: 0 10px 10px 0;*/
+min-height: 380px;
+}
+
+.detail_ultimoSorteo .numero {
+font-size: 27px;
+background-size: 60px;
+padding: 10px 14px 14px 15px;
+width: 60px;
+min-height: 60px;
+}
+
+.detail_ultimoSorteo .serie {
+font-size: 24px;
+}
+
+/* .detail_ultimoSorteo  .premio {
+font-weight: bold;
+} */
+
+.detail_ultimoSorteo .sorteo_fecha{
+padding: 0 10px;
+float: none;
+}
+
+.detail_ultimoSorteo .premios{
+padding: 0 10px;
+float: none;
+margin-top: 20px;
+}
+
+.consultar_premios label {
+width: 75px;
+clear: both;
+margin-top: 10px;
+float: left;
+font-style: italic;
+font-size: 14px;
+font-weight: normal;
+
+}
+
+.consultar_premios input {
+float: left;
+width: 100px;
+margin-top: 7px;
+}
+
+.consultar_premios button {
+color: white;
+border: none;
+margin-top: 10px;
+clear: both;
+float: left;
+margin-left: 80px;
+width: 100px;
+
+}
+
+.resultado_mensaje {
+padding-top: 15px !important;
+float: none;
+clear: both;
+}
+
+.resultado_mensaje strong {
+font-style: italic;
+}
+
+.resultado_mensaje strong i {
+font-size: 80%;
+}
+
+.resultado_mensaje ul {
+list-style-type: square;
+}
+
+.sorteos_anteriores{
+background: #f0f0f0;
+padding: 0;
+
+}
+
+.sorteos_anteriores .fecha_sorteo{
+padding: 0 10px;
+}
+
+.sorteos_anteriores .fecha_sorteo {
+background-image: url('../images/arrow-left-red.png');
+background-repeat: no-repeat;
+background-position-y: 2px;
+cursor: pointer;
+}
+
+.sorteos_anteriores .numero{
+width: 40px;
+background-size: 40px;
+font-size: 20px;
+padding: 7px 0 7px 0;
+}
+
+.sorteos_anteriores .numero.primero{
+background-size: 50px;
+width: 50px;
+height: 50px;
+font-size: 25px;
+}
+
+.sorteos_anteriores .serie.primero{
+width: 50px;
+font-size: 22px;
+}
+
+.sorteos_anteriores .serie{
+font-size: 18px;
+width: 60px;
+text-align: center;
+width: 40px;
+background-size: 40px;
+padding: 0;
+margin: 0 20px 0;
+}
+
+/*chances*/
+
+.page-node-29 .field-name-title{
+display: none;
+}
+
+.page-node-29 .page-header{
+background: #004E80;
+}
+
+.page-node-29 .logo_container{
+margin-top: -90px;
+}
+
+.page-node-29 .region-content{
+padding-top: 0;
+}
+
+.page-node-29 #block-system-main h2{
+border-left: #004E80 solid 4px;
+}
+
+.page-node-29 .sorteos_anteriores .fecha_sorteo{
+background-image: url('../images/arrow-left-chances.png');
+}
+
+/*Tiempos*/
+
+.page-node-30 .field-name-title{
+display: none;
+}
+
+.page-node-30 .page-header{
+background: #279FD7;
+}
+
+.page-node-30 .region-content{
+padding-top: 0;
+}
+
+.page-node-30 .logo_container{
+margin-top: -75px;
+}
+
+.page-node-30 #block-system-main h2{
+border-left: #279FD7 solid 4px;
+}
+
+.page-node-30 .sorteos_anteriores .fecha_sorteo{
+background-image: url('../images/arrow-left-tiempos.png');
+}
+
+/*Instantanea*/
+
+.page-node-307 .field-name-title{
+display: none;
+}
+
+.page-node-307 .page-header{
+background: #780007;
+}
+
+.page-node-307 .region-content{
+padding-top: 0;
+}
+
+.page-node-307 .logo_container{
+margin-top: -90px;
+}
+
+.page-node-307 #block-system-main h2{
+border-left: #780007 solid 4px;
+}
+
+.page-node-307 .sorteos_anteriores .fecha_sorteo{
+background-image: url('../images/arrow-left-loteria-instantanea.png');
+}
+
+.page-node-307 .detail_ultimoSorteo p{
+padding: 0 10px;
+}
+
+.page-node-307 .detail_ultimoSorteo ul{
+padding-right: 10px;
+font-style: italic;
+margin-top: 10px;
+}
+
+.page-node-307 .sorteos_anteriores .fecha_sorteo, .page-node-307 .sorteos_anteriores .sorteos{
+margin-bottom: 10px;
+}
+
+/*Lotto*/
+
+.page-node-32 .field-name-title{
+display: none;
+}
+
+.page-node-32 .page-header{
+background: #23528E;
+}
+
+.page-node-32 .region-content{
+padding-top: 0;
+}
+
+.page-node-32 .logo_container{
+margin-top: -85px;
+}
+
+.page-node-32 #block-system-main h2{
+border-left: #23528E solid 4px;
+}
+
+.page-node-32 .sorteos_anteriores .fecha_sorteo{
+background-image: url('../images/arrow-left-lotto.png');
+}
+
+.page-node-32 .detail_ultimoSorteo{
+padding-bottom: 30px;
+}
+
+.page-node-32 .detail_ultimoSorteo p{
+padding: 0 10px;
+}
+/*
+.page-node-32 .detail_ultimoSorteo .premio {
+font-size: 30px;
+text-align: center;
+float: none;
+}
+
+.page-node-32 .detail_ultimoSorteo .premio_label{
+font-size: 20px;
+margin: -20px 0 0;
+text-align: center;
+float: none;
+display: block;
+right: 0;
+position: relative;
+}
+
+.page-node-32 .sorteos_anteriores .numero{
+margin: 8px;
+width: 40px;
+background-size: 40px;
+font-size: 20px;
+padding-left: 0;
+min-height: 40px
+} */
+
+/*nuevos tiempos*/
+
+#block-system-main .page-node-33 .field-name-title{
+display: none;
+}
+
+.page-node-33 .page-header{
+background: #F0AE08;
+}
+
+#block-system-main .page-node-33 .region-content{
+padding-top: 0;
+}
+
+#block-system-main .page-node-33 .logo_container{
+margin-top: -94px;
+}
+#block-system-main .page-node-688 .logo_container{
+margin-top: -94px;
+}
+
+#block-system-main .page-node-33 #block-system-main h2{
+border-left: #F0AE08 solid 4px;
+}
+
+#block-system-main .page-node-33 .sorteos_anteriores .fecha_sorteo{
+background-image: url('../images/arrow-left-nuevosTiempos.png');
+}
+
+#block-system-main .page-node-33 .detail_ultimoSorteo{
+/*padding-bottom: 30px;*/
+min-height: 380px;
+}
+
+#block-system-main .page-node-33 .detail_ultimoSorteo .premio {
+font-size: 30px;
+}
+
+#block-system-main .page-node-33 .detail_ultimoSorteo .premio_label{
+font-size: 20px;
+margin-top: 50px;
+}
+
+#block-system-main .page-node-33 .sorteos_anteriores .numero{
+margin: 8px;
+}
+
+#block-system-main .page-node-33 .sorteos_anteriores .fecha_sorteo, .page-node-33 .sorteos_anteriores .sorteos{
+margin-bottom: 10px;
+}
+
+#block-system-main .page-node-33 .detail_ultimoSorteo .div_premio {
+float: left;
+margin-left: 10%;
+text-align: center;
+}
+
+#block-system-main .page-node-33 .detail_ultimoSorteo .numero{
+//float: left;
+}
+
+#block-system-main .page-node-33 .detail_ultimoSorteo label {
+clear: left;
+float: left;
+width: 100%;
+font-style: italic;
+}
+
+.front .numero{
+height: 75px;
+}
+
+.page-productos .field-name-body a {
+width: 33%;
+display: block;
+border-right: solid 15px white;
+height: 115px;
+float: left;
+border-bottom: solid 15px white;
+}
+
+.page-productos .field-name-body a img {
+max-width: 75%;
+height: 70%;
+margin: auto;
+display: block;
+margin-top: 15px;
+vertical-align: middle;
+width: auto;
+}
+
+.rueda{
+background: #80A8BB;
+}
+
+.detail h2 .sorteo_fecha{
+font-size: 28px;
+font-style: normal;
+}
+
+.ultimo_sorteo_label{
+
+}
+
+.ultimo_sorteo_label p{
+padding-left: 10px;
+padding-right: 10px;
+}
+
+.consultar_premios {
+background: #f0f0f0;
+border: none;
+min-height: 380px;
+/*padding-bottom: 20px;
+margin-bottom: 20px;*/
+opacity: 0;
+}
+
+.consultar_premios .form, .resultado_mensaje{
+padding: 0 10px;
+}
+
+a.sorteo_pdf {
+font-weight: normal;
+font-size: 11px;
+padding-right: 10px;
+text-align: right;
+//float: right;
+background-repeat: no-repeat !important;
+background-position: right !important;
+margin-right: 10px;
+}
+
+.page-node-28 a.sorteo_pdf{
+background: url('../images/arrow-right-loteria.png');
+color: #962023 !important;
+}
+
+.page-node-29 a.sorteo_pdf{
+background: url('../images/arrow-right-loteria.png');
+color: #004E80 !important;
+}
+
+.sorteos_anteriores .sorteos, .sorteos_anteriores .programa_sorteo{
+border-bottom: solid 1px #A1A1A1;
+padding: 10px;
+}
+
+.pane-block-9 img{
+width: 100%;
+margin-bottom: 20px;
+height: auto;
+}
+
+
+.pane-views-calendario-block{
+margin-bottom: 20px;
+}
+
+.pane-block-10 img{
+width: 100%;
+height: auto;
+}
+
+.pane-block-12 img{
+max-width: 100%;
+height: auto;
+}
+
+/*.pane-block-11{
+background: #E6E6E6 !important;
+padding: 0 0 5px 0;
+}
+
+.pane-block-11 h2 {
+padding: 5px 5px 0 5px;
+border-left: solid 5px #C8283B;
+margin: 0;
+font-size: 24px;
+padding-bottom: 10px;
+}
+
+.pane-block-11 form{
+padding: 5px 10px;
+}*/
+
+#suscribir-notificaciones input{
+text-align: center;
+}
+
+#suscribir-notificaciones input[type="submit"]{
+background: #C8283B;
+color: white;
+border: none;
+}
+
+.not-front .panel-pane.webform, .pane-page-archive{
+background: #D4D4D4;
+padding: 0;
+min-height: 130px;
+}
+
+.not-front .node-webform{
+padding: 0 10px 10px !important;
+}
+
+.node-webform h2{
+display: none;
+}
+
+.page-productos .pane-block-13 {
+background: #;
+padding: 0px 0px 10px;
+margin-bottom: 20px;
+}
+
+.page-productos .pane-block-13 ul {
+padding-left: 25px;
+}
+
+.page-productos .pane-block-13 li {
+list-style: square;
+color: #C8283B;
+}
+
+.page-productos .pane-block-13 a {
+text-decoration: none;
+color: #000;
+}
+
+button.webform-submit, button.webform-submit:hover, button.webform-submit:focus{
+background: #C8283B;
+color: white;
+border: none;
+border-radius: 0;
+margin: 10px 15px auto auto;
+display: block;
+float: right;
+}
+
+.not-front .pane-noticias .view-content .views-row{
+background: #;
+padding: 0;
+border: solid 10px white;
+height: 290px;
+}
+
+.not-front .pane-noticias .views-field-title a, .view-page-archive .view-content .views-field-title a{
+font-size: 20px;
+margin: 0;
+color: #000;
+text-decoration: none;
+padding: 5px 5px 0 5px;
+border-left: solid 5px #C8283B;
+font-weight: normal;
+background: transparent;
+}
+
+.not-front .pane-noticias .view-noticias .views-field-field-image a, .view-page-archive .views-field-field-image a{
+height: 200px;
+overflow: hidden;
+display: block;
+}
+
+.page-sala-prensa .youtube-container--responsive{
+height: 200px;
+width: 100%;
+}
+
+.not-front .pane-noticias .view-noticias .views-field-field-image img,  .view-page-archive .views-field-field-image img{
+height: auto;
+width: 100%;
+}
+
+.not-front .pane-noticias .view-content .views-field-created, .view-page-archive .views-field-created{
+font-style: italic;
+font-size: 11px;
+color: #666666;
+padding: 0 5px 5px;
+border-left: solid 5px #C8283B;
+}
+
+.view-page-archive .youtube-container--responsive{
+min-height: 200px;
+height: auto;
+}
+
+.view-page-archive .view-content .views-row{
+background: #;
+padding: 0;
+border: solid 10px white;
+min-height: 302px;
+}
+
+.not-front .pane-noticias .views-field-view-node a, .not-front .pane-noticias .views-field-view-node a:hover,
+.view-page-archive .views-field-view-node a, .view-page-archive .views-field-view-node a:hover
+{
+position: absolute;
+bottom: 5px;
+right: 0px;
+font-size: 11px;
+color: #C8283B;
+text-decoration: none;
+text-align: right;
+display: block;
+margin-right: 10px;
+font-weight: bold;
+}
+
+.view-page-archive .views-field-view-node, .view-page-archive  .views-field-created, .view-page-archive  .views-field-title {
+position: relative;
+z-index: 10;
+}
+
+.front .pane-block-clear{
+clear: both;
+margin-bottom: 20px;
+margin-top: 20px;
+text-align: center;
+}
+
+.front .pane-block-12, .front .pane-block-11, .front .pane-block-10{
+margin-bottom: 20px;
+margin-top: 20px;
+text-align: center;
+}
+
+/*rueda fortuna*/
+
+.page-node-39 .field-name-title{
+display: none;
+}
+
+.page-node-39 .page-header{
+background: #80A8BB;
+}
+
+.page-node-39 .logo_container{
+margin-top: -90px;
+}
+
+.page-node-39 .region-content{
+padding-top: 0;
+}
+
+.page-node-39 #block-system-main h2{
+border-left: #80A8BB solid 4px;
+}
+
+.page-node-39 .sorteos_anteriores .fecha_sorteo{
+background-image: url('../images/arrow-left-rueda.png');
+}
+
+.page-node-39 .field-name-field-video{
+margin-top: 20px;
+padding: 0;
+}
+
+
+.page-node-39 .field-name-field-video .field-label {
+font-size: 20px;
+border-left: solid 4px #80A8BB;
+padding-left: 5px;
+margin-top: 0;
+padding-top: 5px;
+padding-bottom: 5px;
+background: #;
+}
+
+#youtube-field-player{
+width: 100%;
+}
+
+#node-30 .detail_ultimoSorteo .detail label{
+margin-left: 28px;
+}
+
+#node-30 .detail_ultimoSorteo .numero {
+float: left;
+}
+
+#node-30 .premio {
+float: left;
+margin-left: 50px;
+margin-top: 20px;
+}
+
+#node-30  .detail_ultimoSorteo .premio_label {
+float: left;
+margin-left: 20px;
+margin-top: 5px;
+width: auto;
+clear: none;
+}
+
+.raspa-container{
+background: white;
+width: 100%;
+text-align: center;
+margin: auto 10px;
+}
+
+.raspa-container img{
+width: auto;
+max-height: 350px;
+}
+
+.page-node-32 .consultar_premios input{
+width: 35px;
+}
+
+.page-node-32 .detail_ultimoSorteo .numero.primero{
+margin-left: 20%;
+}
+
+.page-node-32 .detail_ultimoSorteo .numero.cuarto{
+margin-left: 33%;
+}
+
+#tituloTextoBlanco {
+color: #FFF;
+background-color: #C8283B;
+}
+
+.titulo {
+  margin-bottom: 20px !important;
+  font-size: 30px;
+}
+
+table.cuadricula td {
+border: 1px solid #f1f1f1;
+}
+
+/*documentos*/
+
+.page-documentos #block-system-main h2{
+margin-top: 10px;
+}
+
+/*proveedores*/
+/*
+.page-proveedores .row:first-child{
+display: none;
+}
+
+.page-proveedores .row .panel-panel {
+background: #;
+padding: 0 0 10px;
+}
+
+.page-proveedores .row .panel-panel.col-sm-8{
+border-right: solid white 20px;
+}
+
+.page-proveedores .pane-block-5 ul {
+padding-left: 25px;
+}
+
+.page-proveedores .pane-block-5 a {
+text-decoration: none;
+color: #000;
+}
+
+.page-proveedores .pane-block-5 li {
+list-style: square;
+color: #C8283B;
+}*/
+
+/*activaciones*/
+
+#block-menu-menu-activaciones-submenu .nav>li.active {
+background: #C8283B;
+border-right: none;
+border-left: none;
+}
+
+.site-map-box-menu .custom-menu-btn{
+display: none !important;
+}
+
+.page-activaciones .row .panel-panel.col-sm-8,  .page-activaciones-loteria-instantanea .row .panel-panel.col-sm-8,
+.page-activaciones-chances .row .panel-panel.col-sm-8{
+border-right: solid white 20px;
+}
+.page-activaciones .row .panel-panel, .page-activaciones-loteria-instantanea .row .panel-panel,
+.page-activaciones-chances .row .panel-panel{
+background: #;
+padding: 0 0 10px;
+}
+
+.pane-block-15{
+border-top: solid white 20px;
+}
+
+.pane-block-16 ul {
+padding-left: 25px;
+}
+
+.pane-block-16 a {
+text-decoration: none;
+color: #000;
+}
+
+.pane-block-16 li {
+list-style: square;
+color: #C8283B;
+}
+
+.ayuda-container{
+margin: auto;
+width: 90%;
+text-align: center;
+background: white;
+}
+
+.not-front .webform-client-form {
+margin-top: 15px;
+}
+
+.not-front .webform-client-form label{
+float: left;
+width: 40%;
+margin-bottom: 10px;
+margin-right: 10px;
+clear: left;
+}
+
+.node-concurso-externo .field-name-webform-concurso-externo {
+margin-top: 20px;
+margin-left: -12px;
+}
+
+.not-front .webform-client-form input[type="text"], .not-front .webform-client-form select,
+.not-front .webform-client-form input[type="email"]{
+float: left;
+width: 60%;
+margin-bottom: 10px;
+height: 30px;
+padding: 2px;
+}
+
+not-front textarea{
+padding: 2px;
+}
+
+.not-front .webform-client-form .description{
+font-size: 10px;
+font-style: italic;
+margin-bottom: 10px;
+clear: both;
+}
+
+#persona-juridica{
+display: none;
+}
+
+.front .sorteo_detail {
+height: 381px;
+}
+
+.sorteo_detail.instantanea img{
+max-height: 245px;
+height: auto;
+margin: auto;
+display: block;
+padding-top: 24px;
+width: auto;
+clear: both;
+overflow: hidden;
+}
+
+.front .sorteo_detail a, .front .sorteo_detail a:hover{
+position: absolute;
+bottom: 45px;
+}
+
+.front .sorteo_detail.rueda table{
+width: 100%;
+}
+
+.front .sorteo_detail.rueda td{
+font-size: 11px;
+}
+
+.page-node-59 .field-name-body, .page-node-60 .field-name-body{
+padding: 10px 15px;
+}
+
+.page-cementerios table{
+font-size: 11px;
+}
+
+.sorteos_anteriores .dropdown button, .sorteos_anteriores .dropdown ul {
+width: auto;
+float: none;
+color: black;
+margin-left: 0;
+}
+
+.page-contactenos .panel-pane {
+background: #;
+padding: 0px 0px 10px;
+margin-bottom: 20px;
+}
+
+.page-contactenos .panel-pane ul {
+padding-left: 25px;
+}
+
+.page-contactenos .panel-pane li {
+list-style: square;
+color: #000;
+}
+
+.page-contactenos table.cuadricula td, .page-contactenos th{
+border: none;
+padding: 2px 15px;
+}
+
+.page-contactenos table.cuadricula td{
+font-size: 11px;
+}
+
+.page-quienes-somos .field-name-body{
+text-align: justify;
+padding-right: 10px;
+}
+
+.firma-digital{
+border-top: white solid 15px;
+}
+
+.quick_sorteo .dropdown{
+width: 100%;
+}
+
+.quick_sorteo .dropdown button {
+width: 100%;
+font-size: 14px;
+font-weight: bold;
+}
+
+.quick_sorteo .dropdown-menu{
+width: 100%;
+}
+
+div.form-textarea-wrapper{
+float: left;
+}
+
+.page-calendario .views-row{
+border-top: 20px solid white;
+padding-bottom: 20px;
+}
+
+.page-calendario .views-field-field-fecha{
+padding: 0 10px;
+font-size: 18px;
+}
+
+.page-calendario .views-field-body{
+padding: 0 10px;
+}
+
+.page-node-32 .detail_ultimoSorteo .numero {
+margin: 10px;
+}
+
+.div_premio.tarde, .div_premio.manana{
+display: none;
+}
+
+.front .sorteo_detail.nuevosTiempos .serie {
+float: left;
+display: initial;
+margin-top: 25px;
+}
+
+.front .sorteo_detail.nuevosTiempos .numero{
+float: left;
+clear: both;
+}
+
+.front .sorteo_detail.tresMonazos .numero{
+float: left;
+clear: both;
+}
+
+.front .sorteo_detail.lotto .numero {
+height: 75px;
+margin: 10px 2px;
+}
+
+#homeCentro a img, #homeIzquierda{
+width: auto;
+height: 122px;
+margin: auto;
+display: block;
+}
+
+.views-slideshow-cycle-main-frame-row {
+width: 100% !important;
+}
+
+#map-canvas{
+height: 400px;
+margin: 0px;
+padding: 0px
+}
+
+.beneficiario{
+border: solid 5px white;
+color: white;
+text-align: center;
+height: 115px;
+padding: 0;
+}
+
+.beneficiario:nth-child(2n + 1) {
+background: #C8283B;
+}
+
+.beneficiario:nth-child(2n){
+background: #279FD7;
+}
+
+.beneficiario:nth-child(5), .beneficiario:nth-child(7), .beneficiario:nth-child(12){
+background: #F0AE08;
+}
+
+.beneficiario h2{
+border: none !important;
+width: 100% !important;
+height: 105px !important;
+display: block !important;
+font-size: 20px !important;
+margin: 0 !important;
+line-height: 18px !important;
+padding: 0 !important;
+}
+
+.beneficiario a{
+color: white;
+text-decoration: none;
+display: block;
+width: 100%;
+height: 100%;
+padding: 25px 20px 0;
+}
+
+.loading-consultar {
+position: absolute;
+left: 40%;
+bottom: 65px;
+z-index: 1000;
+}
+
+.loading{
+z-index: 1000;
+position: absolute;
+left: 50%;
+margin-top: 20px;
+}
+
+.form-type-checkbox input, .form-type-checkbox label{
+float: none !important;
+}
+
+.webform-component-checkboxes{
+clear: both !important;
+
+}
+
+.not-front #block-system-main .field-name-body{
+text-align: justify;
+}
+
+.page-content-bolsa-de-empleo .views-field-title a{
+background: transparent!important;
+margin: 0 !important;
+display: inline-block;
+color: #C8283B !important;
+border: none;
+}
+
+.page-content-bolsa-de-empleo .views-field-title h2{
+background: #;
+text-decoration: none;
+border-left: solid 4px #C8283B;
+font-size: 20px;
+color: black;
+}
+
+.page-beneficiarios .main-container img{
+max-width: 100%;
+height: auto;
+}
+
+.page-beneficiarios #block-system-main .pane-content p{
+margin: 0 0 10px 10px;
+text-align: center;
+}
+
+.page-beneficiarios #block-system-main .pane-content{
+background-color: #;
+color: #000;
+padding-bottom: 30px;
+}
+
+.page-beneficiarios #block-system-main strong{
+padding: 0 10px;
+display: block;
+text-align: center;
+}
+
+.page-beneficiarios .marcoLegal{
+border-bottom: solid white 20px;
+}
+
+.page-beneficiarios #block-system-main .right h2{
+border-bottom: none;
+background: #;
+margin: 0;
+}
+
+.page-beneficiarios #block-system-main .right >  .panel-pane{
+border-bottom: solid 20px white;
+}
+
+.page-beneficiarios #block-system-main .right ul{
+padding-left: 25px;
+}
+
+.page-beneficiarios #block-system-main .right ul>li{
+list-style: square !important;
+color: #C8283B;
+display: list-item !important;
+}
+
+.page-beneficiarios #block-system-main .right ul>li:hover, .page-beneficiarios #block-system-main .right ul>li>a:hover,
+.page-beneficiarios #block-system-main .right ul>li>a:focus{
+color: black;
+text-decoration: none;
+background: transparent;
+}
+
+.page-beneficiarios #block-system-main .right ul>li>a{
+color: black;
+padding: 5px 10px;
+}
+
+.page-beneficiarios .marcoLegal p{
+text-align: justify !important;
+}
+
+.page-beneficiarios a.informe{
+color: #C8283B !important;
+display: inline-block;
+text-align: center;
+margin: 0 5px 20px;
+}
+
+.node-type-beneficiario .main-container img{
+max-width: 100%;
+height: auto;
+}
+
+.node-type-beneficiario .view-mode-full .row-fluid > div p{
+margin: 0 10px 10px;
+}
+
+.node-type-beneficiario .view-mode-full .row-fluid > div{
+background-color: #;
+color: #000;
+padding: 0;
+}
+
+.node-type-beneficiario .view-mode-full .row-fluid .span4{
+border-left: solid 20px white;
+}
+
+.node-type-beneficiario .view-mode-full .row-fluid .span4 h2{
+border-bottom: none;
+background: #;
+margin: 0;
+}
+
+.node-type-beneficiario .view-mode-full .row-fluid .span4 > .field{
+border-bottom: solid 20px white;
+}
+
+.node-type-beneficiario .view-mode-full .row-fluid .span4 ul{
+padding-left: 25px;
+}
+
+.node-type-beneficiario .view-mode-full .row-fluid .span4 ul>li{
+list-style: square !important;
+color: #C8283B;
+display: list-item !important;
+}
+
+.node-type-beneficiario .view-mode-full .row-fluid .span4 ul>li:hover, .node-type-beneficiario .view-mode-full .row-fluid .span4 ul>li>a:hover,
+.node-type-beneficiario .view-mode-full .row-fluid .span4 ul>li>a:focus{
+color: black;
+text-decoration: none;
+background: transparent;
+}
+
+.node-type-beneficiario .view-mode-full .row-fluid .span4 ul>li>a{
+color: black;
+padding: 5px 10px;
+}
+
+.page-galeria-general .view-galeria .views-row, .page-galeria .view-galeria .views-row  {
+width: 20% !important;
+height: auto;
+float: left;
+border: solid 5px white;
+text-align: center;
+}
+
+#homeArribaDerecha, #homeArribaIzquierda{
+margin-bottom: 20px;
+}
+
+.appPoster{
+width: 100%;
+}
+
+.app_link{
+margin: 20px auto;
+display: block;
+width: 150px;
+}
+
+#lightboxImage{
+display: block !important;
+}
+
+.webform-client-form fieldset{
+clear: both !important;
+}
+
+#searchForm {
+margin-top: -35px;
+padding: 0;
+}
+
+.radio input[type="radio"], .radio-inline input[type="radio"]{
+margin-left: 0 !important;
+float: none !important;
+margin-bottom: 10px;
+}
+
+.webform-component-radios{
+float: left;
+clear: both;
+width: 100%;
+}
+
+.webform-component-radios .form-radios{
+clear: both;
+}
+
+.node-type-beneficiario .field-name-body p em{
+font-size: 9px;
+text-align: right;
+width: 100%;
+display: block;
+}
+
+.not-front .detail_ultimoSorteo.tiempos {
+min-height: auto;
+}
+
+#block-views-loteria-instantanea-block{
+display: none;
+}
+
+.page-node-307 .views-field-body{
+margin-bottom: 20px;
+}
+
+.page-node-307 .views-field-field-image img{
+max-width: 100%;
+width: auto !important;
+margin-bottom: 20px;
+}
+
+.instantanea .view-body .view-content .views-field-body{
+clear: both;
+}
+
+.tabs--primary.nav.nav-tabs{
+margin-top: 20px !important;
+margin-bottom: 0 !important;
+}
+
+.nav-tabs>li>a {
+background: white !important;
+}
+
+#user-pass{
+max-width: 400px;
+}
+
+.front #block-system-main .pane-custom.pane-1 .pane-content{
+background-color: white;
+}
+
+.input-validation-error {
+border: 1px solid #b94a48;
+}
+
+/* The side navigation menu */
+.sidenav {
+height: 100%; /* 100% Full-height */
+width: 0; /* 0 width - change this with JavaScript */
+position: fixed; /* Stay in place */
+z-index: 1; /* Stay on top */
+top: 0;
+left: 0;
+background-color: rgba(0,0,0,0.9); /* Black*/
+overflow-x: hidden; /* Disable horizontal scroll */
+padding-top: 60px; /* Place content 60px from the top */
+transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+z-index: 200;
+}
+
+/* The navigation menu links */
+.sidenav a {
+padding: 8px 8px 8px 32px;
+text-decoration: none;
+font-size: 25px;
+color: #fff;
+display: block;
+transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+position: absolute;
+top: 0;
+right: 25px;
+font-size: 36px;
+margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+transition: margin-left .5s;
+background-color: white;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+.sidenav {padding-top: 15px;}
+.sidenav a {font-size: 18px;}
+
+
+
+}
+
+
+@media screen and (max-width: 450px) {
+.field-item .nuevosTiempos{
+  height: 500px;
+}
+}
+
+
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+width: 100% !important;
+}
+
+.abrir {
+
+transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+background: #C8283B;
+color: white;
+position: fixed;
+top: 45%;
+text-transform: uppercase;
+border: 1px solid blue;
+padding: 10px 20px;
+border-radius: 20px 20px 0px 0px;
+-moz-border-radius: 20px 20px 0px 0px;
+-webkit-border-radius: 20px 20px 0px 0px;
+border: 0px solid #000000;
+z-index: 9999999999;
+/* Safari */
+-webkit-transform: rotate(90deg);
+/* Firefox */
+-moz-transform: rotate(90deg);
+/* IE */
+-ms-transform: rotate(90deg);
+/* Opera */
+-o-transform: rotate(90deg);
+/* Internet Explorer */
+filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+margin-left: -96px;
+}
+
+.resumen {
+  color: white;
+  position: absolute;
+  bottom: 50px;
+  padding: 50px;
+}
+
+.btn-default {
+  background: #C8283B !important;
+  border-radius: 20px !important;
+  border: none !important;
+  color: white !important;
+  text-transform: uppercase !important;
+}
+
+.btn-default:hover {
+  color: black ;
+}
+
+
+.transparencia {
+  height: 200px;
+  padding: 60px 0;
+  text-align: center;
+  color: white;
+  background-size: cover;
+}
+
+.activaciones {
+  min-height: 250px;
+  padding: 70px 0;
+  text-align: center;
+  color: white;
+  background-size: cover;
+}
+
+.separador {
+padding: 20px;
+}
+
+.slick-prev:before {
+   content: url('../images/arrow-left-black.png') !important;
+}
+
+.slick-next:before {
+   content: url('../images/arrow-right-black.png') !important;
+}
+
+.slick-slide {
+padding: 10px;
+height: 400px;
+}
+
+.slider-home .slick-slide{
+
+padding: 0;
+
+}
+
+.slick-slide img{
+
+width: 100%;
+
+}
+
+
+.page-home .nav {
+display: flex !important;
+}
+
+.slider-home  .banner {
+height: 500px;
+background-size: cover;
+}
+
+.item img {
+  width: 100%;
+}
+
+.loteria-ilegal{
+  padding: 30px;
+  background: #505050;
+
+}
+
+.loteria-ilegal h2{
+  color: #ffffff;
+  font-weight: 200;
+}
+
+.footer {
+  background: #C8283B !important;
+}
+
+.icono {
+  background: #C8283B;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+border-radius: 50%;
+}
+
+.icono img {
+margin: 0 auto;
+padding: 20px;
+
+}
+
+.slider-home .slick-dots li button:before{
+  background: white;
+  border-radius: 50%;
+  bottom: 50px !important;
+
+}
+
+.slick-dots {
+  bottom: 30px !important;
+}
+
+#servicios {
+  background-color: #f0f0f0;
+    padding: 20px;
+}
+
+#servicios a {
+  color: black;
+  text-decoration: none;
+}
+
+
+#servicios .row {
+  padding: 50px 0;
+}
+
+#servicios h4 {
+ font-weight: 300;
+ text-transform: uppercase;
+}
+
+#servicios h4 span {
+ font-weight: 700;
+}
+
+.loteria-ilegal h2{
+  padding: 30px;
+  text-align: center;
+}
+
+#home-footer a {
+  color: white !important;
+}
+
+
+.footer .nav {
+  display: block !important;
+}
+
+.footer .menu li{
+  text-align: left;
+  display: block;
+  width: 100%;
+  text-transform: uppercase;
+
+}
+
+.footer .menu a {
+  text-align: left;
+  display: block;
+  width: 100%;
+  text-transform: uppercase;
+}
+
+.icons {
+  display: inline-flex;
+  float: right;
+  right: 0;
+  text-align: right;
+  position: absolute;
+  top: 40px;
+  right: 60px;
+
+
+}
+
+.icons  a {
+  margin: 2px;
+}
+
+/* -------------------- */
+/*    MENU OFFCANVAS    */
+/* -------------------- */
+#mySidenav {
+  color: white;
+}
+#mySidenav h1,
+#mySidenav p  {
+
+  color: white;
+}
+
+.sidenav .chances {
+    padding: 30px;
+  background:  transparent !important;
+
+}
+
+.sidenav .tiempos {
+    padding: 30px;
+  background:  transparent !important;
+
+}
+
+.sidenav .lotto {
+    padding: 30px;
+  background:  transparent !important;
+
+}
+
+.sidenav .nuevosTiempos {
+    padding: 30px;
+  background:  transparent !important;
+
+}
+
+.sidenav .tresMonazos {
+    padding: 30px;
+  background:  transparent !important;
+
+}
+
+.sidenav .loteria {
+    padding: 30px;
+  background:  transparent !important;
+
+}
+.sidenav .rueda {
+    padding: 30px;
+  background:  transparent !important;
+
+}
+
+.sidenav .instantanea {
+    padding: 30px;
+  background:  transparent !important;
+
+}
+
+.white {
+
+color: white;
+}
+
+
+.sidenav .detail_ultimoSorteo.tiempos {
+  height: auto !important;
+}
+
+.sidenav .detail_ultimoSorteo.rueda {
+  height: auto !important;
+}
+
+
+.sidenav .detail_ultimoSorteo.instantanea {
+  height: auto !important;
+}
+
+
+.sidenav .detail_ultimoSorteo {
+  height: auto !important;
+}
+
+
+.sidenav .detail_ultimoSorteo {
+  height: auto !important;
+}
+
+
+
+.sidenav .detail_ultimoSorteo {
+  border-bottom: 1px solid white;
+}
+
+.sidenav .detail_ultimoSorteo .numero {
+    font-size: 15px;
+    background-size: 40px;
+    padding: 10px;
+    width: 40px;
+    min-height: 40px;
+    height: 40px !important;
+}
+
+.sidenav .detail_ultimoSorteo  .premio {
+  margin-top: 15px;
+    font-size: 15px !important;
+}
+.sidenav small {
+  font-size: 20px;
+}
+
+.sidenav .lotto .numero {
+  margin: 0;
+}
+
+.sidenav a {
+  padding:  0;
+}
+
+.sidenav .detail_ultimoSorteo img {
+  width: 100px;
+  margin: 10px;
+}
+
+
+#myMenu .menu a{
+color: black;
+text-align: center;
+font-size: 20px;
+border-bottom: 1px solid #f0f0f0;
+
+}
+
+#myMenu .nav {
+  width: 80%;
+  margin: 0 auto;
+  float: none;
+  float: inherit !important;
+}
+
+.dropdown-menu li.leaf {
+  margin: 10px 0;
+  height: 30px;
+}
+
+.nav .caret {
+    border-top-color: #000;
+    border-bottom-color: #000;
+}
+
+.nav .active {
+  font-weight: 900;
+}
+
+
+.app {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 9999;
+}
+
+.app img {
+  width: 100px;
+}
+.copy {
+
+    width: 100%;
+    background: black;
+    padding: 8px;
+    color: white;
+    margin-top: 10px;
+}
+
+.copy img {
+  width: 100px;
+}
+
+/*Pantalla mis activaciones*/
+.fondo_mis_activaciones{
+  background-color: #f0f0f0;
+}
+
+.nota_activacion::after{
+  content: '';
+  border-bottom: solid 2px white;
+  width: 100%;
+}
+
+#datos_tabla_activaciones_I td, #datos_tabla_activaciones_L td{
+  text-align: center;
+  border: solid 1px #868383;
+}
+#datos_tabla_activaciones_I th, #datos_tabla_activaciones_L th{
+  text-align: center;
+  border: solid 1px #868383;
+  background-color: #ffffff;
+}
+
+#datos_tabla_activaciones_I, #datos_tabla_activaciones_L{
+  border: solid 1px #868383;
+}
+
+#datos_tabla_activaciones_I h4, #datos_tabla_activaciones_L h4{
+  text-align: center;
+  margin: 4px;
+  color: #C8283B;
+}
+
+/*****BANNER JPSENLINEA*****/
+
+.contenedor_banner{
+  display:-webkit-flex;
+  flex-wrap: wrap;
+}
+
+.div_banner{
+  text-align: center;
+  line-height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.img_jpsenlinea{
+  width: 50%;
+}
+
+
+/*****FIN BANNER JPSENLINEA*****/
+

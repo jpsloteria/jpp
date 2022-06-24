@@ -1,0 +1,314 @@
+@media (max-width: 767px){
+
+
+.page-home .nav {
+display: block !important;
+}
+
+.logo.navbar-btn img{
+height: 100px;
+width: auto;
+}
+
+.nav {
+  display: block !important;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.detail_ultimoSorteo .detail {
+  padding: 40px;
+}
+
+.front .pane-block.pane-views-noticias-block {
+clear: both;
+padding-top: 20px;
+}
+
+.front .sorteo_detail.lotto .premio{
+margin-top: 0 !important;
+}
+
+#searchForm{
+display: none;
+}
+
+.front .panel-col-bottom .inside{
+padding: 0 15px;
+}
+
+.node-type-article .pane-custom  .pane-content{
+margin-top: 10px;
+}
+
+.node-type-article .pane-node-author, .node-type-article .pane-node-created, .node-type-article .pane-node-body{
+padding: 0 10px;
+}
+
+.node-type-article .panel-panel.right{
+border: none;
+margin-top: 20px;
+}
+
+.navbar-collapse {
+background: white;
+position: absolute;
+z-index: 2000;
+margin-top: -43px;
+box-shadow: 1px 5px 5px 2px rgba(0,0,0,0.4);
+border: none;
+width: 100%;
+}
+
+.navbar-nav li.last {
+float: right;
+}
+
+.menu.navbar-nav{
+max-width: 100%;
+float: none;
+}
+
+.footer .container {
+  margin: 30px;
+}
+
+.icons {
+  right: 20px;
+}
+
+.view-noticias.view-display-id-block_1 .view-content {
+width: 100%;
+}
+
+.front .view-noticias.view-display-id-block_1 .views-field-field-image img{
+max-height: 100%;
+}
+
+.view-noticias.view-display-id-block_1{
+overflow: visible;
+height: auto;
+}
+
+.view-noticias.view-display-id-block_1 .view-content .views-row{
+max-width: 100%;
+height: auto;
+margin-bottom: 10px;
+}
+
+.front .view-noticias.view-display-id-block_1 .views-field-view-node a, .front .view-noticias.view-display-id-block_1 .views-field-view-node a:hover{
+position: relative;
+bottom: 0;
+}
+
+#block-block-2{
+margin-top: 10px;
+}
+
+.panel-pane{
+padding: 0;
+}
+
+.tipo-sorteo ul li{
+//margin-right: 1.95px;
+}
+
+.not-front #block-system-main{
+padding: 0px;
+}
+
+.front .sorteo_detail a, .front .sorteo_detail a:hover {
+position: absolute;
+bottom: 10px;
+right: 0px;
+width: 100px;
+}
+
+.sorteo_detail h2 {
+float: none;
+font-size: 20px;
+}
+
+.front .sorteo_detail.rueda {
+height: 500px !important;
+}
+
+.front .sorteo_detail {
+height: 360px;
+}
+
+.sorteo_fecha {
+float: none;
+}
+
+.front .sorteo_detail.lotto .numero {
+margin: 2% !important;
+height: 55px !important;
+}
+
+.numero {
+background: url('../images/bola-icon.png');
+font-size: 30px;
+padding: 7px 14px 14px 6px;
+width: 62px;
+margin: 10px 5px 0;
+background-size: 90%;
+background-repeat: no-repeat;
+}
+
+.not-front .numero{
+margin: 0 20px 0;
+}
+
+.serie {
+font-size: 24px;
+display: inline-block;
+}
+
+.premio {
+float: right;
+display: block;
+clear: right;
+margin-top: 30px;
+font-size: 16px;
+}
+
+.footer ul li a {
+border: none !important;
+padding: 5px !important;
+text-align: left;
+}
+
+.footer ul li{
+display: block;
+}
+
+.footer ul {
+width: 100%;
+}
+
+#block-block-14 > div{
+float: none !important;
+margin-top: 10px !important;
+margin: 0 auto;
+}
+
+.page-productos .field-name-body a {
+width: 100%;
+display: block;
+height: 115px;
+border: solid 10px white !important;
+float: none;
+}
+
+.page-productos .field-name-body a img {
+max-width: 75%;
+max-height: 85%;
+height: auto;
+margin: auto;
+display: block;
+padding-top: 10px;
+width: auto;
+}
+
+.logo_container{
+display: none;
+}
+
+.not-front .main-container .block-menu .nav>li{
+float: none;
+}
+
+.not-front .menu.nav{
+margin-bottom: 15px;
+}
+
+.not-front .col-sm-4{
+padding: 0;
+border: none;
+}
+
+.not-front .pane-noticias .views-row-odd{
+border: none;
+}
+
+.not-front h1{
+font-size: 20px;
+}
+
+.page-proveedores .row .panel-panel.col-sm-8{
+border: none;
+margin-bottom: 20px;
+}
+
+.not-front .webform-client-form label{
+font-size: 12px;
+}
+
+.page-activaciones .row .panel-panel.col-sm-8, .page-activaciones-loteria-instantanea .row .panel-panel.col-sm-8, .page-activaciones-chances .row .panel-panel.col-sm-8{
+border: none;
+margin-bottom: 20px;
+}
+
+.page-contraloria-servicios .pane-content{
+padding: 0 10px 10px;
+text-align: justify;
+}
+
+.page-cementerios .panel-panel.left, .page-node-40 .field-name-body{
+overflow-x: scroll;
+}
+}
+
+@media (max-width: 1080px){
+
+/* .abrir {
+left: -110px;
+} */
+
+.container {
+/* border: 1px solid blue; */
+}
+
+
+#block-block-6{
+display: none;
+}
+}
+
+
+@media (max-width: 1000px){
+
+
+.container {
+/* border: 1px solid yellow; */
+}
+
+.slick-arrow {
+display: none !important;
+}
+
+.resumen {
+display: none;
+}
+
+.logo img {
+width: 20%;
+height: 60px !important;
+}
+
+.navbar-nav>li>a {
+font-size: 85% !important;
+}
+
+.navbar-nav>li {
+margin-right: 5px;
+}
+
+.front .ver-mas{
+bottom: 2px;
+}
+
+
+}
+
